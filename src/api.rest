@@ -1,0 +1,27 @@
+###
+GET http://localhost:4000/api/employees/
+
+###
+GET http://localhost:4000/api/employees/5f69444530de1e0a78b0cf17
+
+###
+POST  http://localhost:4000/api/employees/
+Content-Type: application/json
+
+{
+    "name":"Micro",
+    "position":"Developer",
+    "office":"Babylonia",
+    "salary":"15000"
+}
+
+###
+PUT http://localhost:4000/api/employees/5f6a7c1c30de1e0a78b0cf18
+Content-Type: application/json
+
+{
+    "salary":"5000"
+}
+
+###
+DELETE  http://localhost:4000/api/employees/5f69444530de1e0a78b0cf17
